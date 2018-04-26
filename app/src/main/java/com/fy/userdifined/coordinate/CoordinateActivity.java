@@ -1,6 +1,5 @@
 package com.fy.userdifined.coordinate;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -12,7 +11,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.fy.userdifined.R;
-import com.fy.userdifined.ScreenUtils;
+import com.fy.userdifined.util.ScreenUtils;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -24,6 +23,21 @@ import butterknife.OnClick;
  * Created by fangs on 2018/4/25.
  */
 public class CoordinateActivity extends AppCompatActivity implements View.OnClickListener{
+
+    /**
+     * 屏幕上的默认坐标 以屏幕左上角为 原点(如下 模拟)
+     *
+     * O -----------------> X
+     * |
+     * |
+     * |
+     * |
+     * |
+     * |
+     * |
+     * V
+     * Y
+     */
 
     @BindView(R.id.rlGroup)
     RelativeLayout rlGroup;

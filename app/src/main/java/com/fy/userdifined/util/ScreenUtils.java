@@ -1,4 +1,4 @@
-package com.fy.userdifined;
+package com.fy.userdifined.util;
 
 import android.app.Activity;
 import android.content.Context;

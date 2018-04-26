@@ -23,6 +23,8 @@
             android:name=".coordinate.CoordinateActivity"
             android:screenOrientation="portrait" />
 
+        <activity android:name=".custom.CustomViewActivity"
+            android:screenOrientation="portrait" />
 
     </application>
 

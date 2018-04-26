@@ -10,11 +10,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginBottom="8dp"
         android:background="#aa0"
         android:padding="12dp"
         android:text="坐标系"
         android:textColor="#ffffff"
         android:textSize="18sp" />
 
+
+    <TextView
+        android:id="@+id/tvCustomView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#7a0"
+        android:padding="12dp"
+        android:text="自定义View （一）"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
 
 </LinearLayout>
