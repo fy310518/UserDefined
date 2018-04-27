@@ -23,7 +23,12 @@
             android:name=".coordinate.CoordinateActivity"
             android:screenOrientation="portrait" />
 
+        <!-- 自定义 View -->
         <activity android:name=".custom.CustomViewActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- Canvas基本操作 -->
+        <activity android:name=".custom.CanvasOperationActivity"
             android:screenOrientation="portrait" />
 
     </application>
